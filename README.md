@@ -42,3 +42,32 @@ To use these playbooks:
 3. Review the playbook files in the `playbooks` directory and edit them as needed to match your environment.
 
 4. Execute the desired playbook using the `ansible-playbook` command:
+   
+    ```bash
+    ansible-playbook -i inventory.ini playbook.yml
+    ```
+
+    Replace `inventory.ini` with your inventory file and `playbook.yml` with the playbook you want to execute.
+
+### Playbook Descriptions
+
+- **`deploy_app.yml`**: Deploy the application to the target hosts.
+- **`configure_network.yml`**: Configure network settings on the target hosts.
+- **`update_system.yml`**: Update the system packages on the target hosts.
+
+### Contributing
+
+We welcome contributions to enhance and expand these Ansible playbooks. If you have improvements, bug fixes, or new playbooks to propose, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/improvement`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/improvement`).
+6. Create a new Pull Request.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it as needed.
+
+For any questions or concerns, please contact [maintainer's email]. Thank you for using our Ansible playbooks!
